@@ -14,22 +14,6 @@ The proposed framework includes:
 4. Overlap region detection
 5. Multi-scale gradient pyramid fusion
 
-## Project Structure
-.
-├── main.m                     Main program entry
-├── preprocessing.m            Image preprocessing
-├── calibration.m              Stereo camera calibration
-├── feature_matching.m         Feature detection and matching
-├── transform_estimation.m     RANSAC transformation estimation
-├── remapping.m                Image remapping
-├── fusion.m                   RGB–thermal image fusion
-├── display_functions.m        Visualization functions
-├── utils.m                    Utility functions
-├── my7stereoParams.mat        Precomputed stereo calibration parameters
-└── README.md                  Project documentation
-└── test_RGB.jpg
-└── test_TI.jpg
-
 ## Requirements
 
 MATLAB R2022a or newer
