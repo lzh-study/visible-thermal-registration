@@ -1,8 +1,43 @@
-# visible-thermal-registration
-Visible-light and thermal infrared image registration based on improved KAZE and epipolar constraint
-This repository contains the MATLAB implementation of the paper:
+# Visible–Thermal Image Registration (MATLAB)
+
+⚠️ This repository contains the **official implementation** associated with the following paper submitted to *The Visual Computer*:
 
 **Enhanced Image Registration for Visible-Light and Thermal Infrared Modalities via Dual-Objective Calibration and Adaptive Feature Matching**
+
+The code is released to improve **research transparency and reproducibility**.  
+Researchers are encouraged to reproduce the experiments and evaluate the results using the provided implementation.
+
+If you use this code in your research, please cite the corresponding paper.
+
+---
+
+## Paper–Code Relationship
+
+This repository provides the **experimental implementation** used in the paper:
+
+Enhanced Image Registration for Visible-Light and Thermal Infrared Modalities via Dual-Objective Calibration and Adaptive Feature Matching  
+(submitted to *The Visual Computer*)
+
+The repository includes:
+
+- algorithm implementation
+- calibration parameters
+- experiment scripts
+- visualization tools
+
+These resources allow readers to **reproduce the experiments reported in the paper**.
+
+---
+
+## Citation
+
+If you use this code or dataset, please cite:
+
+@article{visible_thermal_registration,
+  title={Enhanced Image Registration for Visible-Light and Thermal Infrared Modalities via Dual-Objective Calibration and Adaptive Feature Matching},
+  journal={The Visual Computer},
+  year={2026}
+}
 
 ## Method Overview
 
@@ -36,5 +71,3 @@ display fused images
 ## License
 This project is released for academic and research purposes.
 
-## Paper
-Enhanced Image Registration for Visible-Light and Thermal Infrared Modalities via Dual-Objective Calibration and Adaptive Feature Matching
